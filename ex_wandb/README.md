@@ -14,5 +14,9 @@ https://wandb.ai/
 
 3. model train
    1. [feature engineering + saving artifact(encoder, binarizer)](https://github.com/lucaseo/tutorial_data_model_version_control/blob/main/ex_wandb/notebook/feature_engineering.ipynb)
-   2. [baseline model training + saving artifact(model)]((https://github.com/lucaseo/tutorial_data_model_version_control/blob/main/ex_wandb/notebook/model_training-1.ipynb))
-   3. [2nd model training + saving artifact(model)]((https://github.com/lucaseo/tutorial_data_model_version_control/blob/main/ex_wandb/notebook/model_training-2.ipynb))
+   2. [baseline model training + saving artifact(model)](https://github.com/lucaseo/tutorial_data_model_version_control/blob/main/ex_wandb/notebook/model_training-1.ipynb)
+   3. [2nd model training + saving artifact(model)](https://github.com/lucaseo/tutorial_data_model_version_control/blob/main/ex_wandb/notebook/model_training-2.ipynb)
+
+4. [inference](https://github.com/lucaseo/tutorial_data_model_version_control/blob/main/ex_wandb/notebook/inference.ipynb)
+   1. download artifacts for production environment
+   2. execute inference
