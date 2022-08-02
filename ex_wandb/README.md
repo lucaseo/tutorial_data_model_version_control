@@ -1,4 +1,6 @@
-# 
+# Weights & Biases : Basic tutorial
+
+https://wandb.ai/
 
 ## Tutorial order
 
