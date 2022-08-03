@@ -1,4 +1,4 @@
 outs:
-- md5: 049d96ead8459da4598011c3e14c1ac3
-  size: 106
+- md5: f8c1150093dad4f38b6b47f554f31042
+  size: 105
   path: model_performance.json
