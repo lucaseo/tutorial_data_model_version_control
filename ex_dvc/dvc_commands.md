@@ -66,4 +66,19 @@ dvc add model/encoder.joblib model/lb.joblib
 git add model/encoder.joblib.dvc model/lb.joblib.dvc model/.gitignore
 git commit -m "add artifacts for feature engineering."
 dvc push
+
+python train_model.py
+dvc add model/model_parameters.json model/model.joblib model/model_performance.json
+git add model/model.joblib.dvc model/model_performance.json.dvc model/model_parameters.json.dvc model/.gitignore
+git commit -m "v1.0 - model 1st attempt"
+git tag -a "v1.0" -m "model v1.0"
+dvc push
+
+# after change some params
+python train_model.py
+dvc add model/model_parameters.json model/model.joblib model/model_performance.json
+git add model/model.joblib.dvc model/model_performance.json.dvc model/model_parameters.json.dvc model/.gitignore
+git commit -m "v2.0 - model 2nd attempt"
+git tag -a "v2.0" -m "model v2.0"
+dvc push
 ```
